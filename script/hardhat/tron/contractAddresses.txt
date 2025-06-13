@@ -1,0 +1,57 @@
+nile testnet
+SunswapV2Factory:
+    (tron) TCfSVcHd8oYvjvbc4gNpH1PgVQr1cU9hAZ
+    (hex) 411d8c271dc562a854e9dc55b77c9ad47d67274ad8
+
+SunswapV2Router02:
+    (tron) TLk41GLBJWkFzfCDE1bintfCJkHwiZGgJB
+    (hex) 41762c775d0ad89f096771a7b05a0f427bf79d7e5d
+
+SunswapV3Factory:
+    (tron) TUTGcsGDRScK1gsDPMELV2QZxeESWb1Gac
+
+CakeV3PoolQuoteHelper:
+    (tron) TFTNxbuW2JyBo7VPQrhBraALhDqop73PJD
+
+TomoSwapRouter:
+    (tron) THQFCyBxk2sHtdddHBWsyK8wKqM9KMXD75
+
+Permit2:
+    (tron) TMw3MtL3WJeVG9nbsXDDrukjTVryQrQu5F
+
+Weth9:
+    (tron) TYsbWxNnyTgsZaTFaue9hqpxkU3Fkco94a
+
+Usdt:
+    (tron) TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf
+
+Jst:
+    (tron) TF17BgPaZYbz8oxbjhriubPDsA7ArKoLX3
+
+Usdt-Weth9 Pair:
+    (tron) TXFyoy8V3js4Z5XZGQ4HKUjKT9gcoEMKzX
+
+Usdt-Jst Pair:
+    (tron) TT8poFYLxgs8YzThaxYnBx9SEXSgafe5YQ
+
+mainnet
+Usdt:
+    (tron) TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
+
+Weth9:
+    (tron) TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR
+
+Permit2:
+    (tron) TDJNTBi51CnnpCYYgi6GitoT4CJWrqim2G
+
+SunswapV2Factory:
+    (tron) TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY
+
+SunswapV3Factory:
+    (tron) TThJt8zaJzJMhCEScH7zWKnp5buVZqys9x
+
+TomoSwapRouter:
+    (tron) TM9y9N5RoEkHFxAwkbzYu1Sz72DKeLYprS
+
+CakeV3PoolQuoteHelper:
+    (tron) TNQCgKNgmXdX3CbzCxFRTKQWjS8qxKVsDC

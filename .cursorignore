@@ -1,0 +1,46 @@
+# Foundry specific
+cache/
+cache_*/
+out/
+broadcast/
+lib/
+
+# Hardhat specific
+artifacts/
+cache-hardhat/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+dist/
+build/
+
+# Debug logs
+*.log
+debug/
+
+# Test artifacts
+reports/
+gas-report.txt
+
+# Misc
+.DS_Store
+.coverage_*
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/

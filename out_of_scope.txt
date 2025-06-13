@@ -1,0 +1,38 @@
+# Test files
+test/
+test/bsc/CakeV2GasEstimate.t.sol
+test/bsc/CakeV3GasEstimate.t.sol
+test/bsc/CakeV3PoolQuoteHelper.t.sol
+test/bsc/PancakeswapV2.t.sol
+test/bsc/PancakeswapV3.t.sol
+test/bsc/SushiswapV2.t.sol
+test/bsc/SushiswapV3.t.sol
+test/bsc/UniswapV3.t.sol
+
+# Script files
+script/
+script/deploy/
+script/hardhat/
+script/utils/
+script/Interactions.s.sol
+
+# Tools
+src/tools/*
+
+# Development configuration files
+.env
+.env.*
+hardhat.config.ts
+foundry.toml
+remappings.txt
+tsconfig.json
+yarn.lock
+package.json
+.prettierrc
+.gitignore
+.cursorignore
+.gitmodules
+README.md
+
+# Makefile
+Makefile
