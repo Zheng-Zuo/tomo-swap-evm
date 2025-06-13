@@ -1,0 +1,54 @@
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "solidity.telemetry": false,
+    "editor.formatOnSave": true,
+    "notebook.formatOnSave.enabled": true,
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.preferences.quoteStyle": "double",
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "makefile.configureOnOpen": false,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#ffd700" // Change to any color you prefer
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "rust-analyzer.cargo.allFeatures": false,
+    "solidity.packageDefaultDependenciesContractsDirectory": "src",
+    "solidity.packageDefaultDependenciesDirectory": "lib",
+
+    "[solidity]": {
+        "editor.defaultFormatter": "JuanBlanco.solidity"
+    },
+    "solidity.formatter": "forge",
+
+    "solidity.remappings": [
+        "@uniswap/v2-core/contracts/=lib/v2-core/contracts/",
+        "@uniswap/v2-periphery/contracts/=lib/v2-periphery/contracts/",
+        "@uniswap/lib/contracts/=lib/solidity-lib/contracts/",
+        "@uniswap/v3-core/contracts/=lib/v3-core/contracts/",
+        "@uniswap/v3-periphery/contracts/=lib/v3-periphery/contracts/",
+        "@safe-global/safe-smart-account/contracts/=lib/safe-smart-account/contracts/",
+        "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+        "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+        "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+        "@solmate/contracts/=lib/solmate/src/",
+        "@murky=lib/murky/",
+        "@account-abstraction/contracts/=lib/account-abstraction/contracts/",
+        "@permit2/contracts/=lib/permit2/src/",
+        "@foundry-devops/contracts/=lib/foundry-devops/src/",
+        "@erc721a/contracts/=lib/ERC721A/contracts/",
+        "@erc721a-upgradeable/contracts/=lib/ERC721A-Upgradeable/contracts/",
+        "@foundry-huff/=lib/foundry-huff/src/"
+    ],
+    "solidity.defaultCompiler": "localNodeModule"
+}

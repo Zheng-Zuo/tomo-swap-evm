@@ -1,0 +1,14 @@
+@uniswap/v2-core/contracts/=lib/v2-core/contracts/
+@uniswap/v2-periphery/contracts/=lib/v2-periphery/contracts/
+@uniswap/lib/contracts/=lib/solidity-lib/contracts/
+@uniswap/v3-core/contracts/=lib/v3-core/contracts/
+@uniswap/v3-periphery/contracts/=lib/v3-periphery/contracts/
+@safe-global/safe-smart-account/contracts/=lib/safe-smart-account/contracts/
+@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/
+@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/
+@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/
+@solmate/contracts/=lib/solmate/src/
+@murky=lib/murky/
+@account-abstraction/contracts/=lib/account-abstraction/contracts/
+@permit2/contracts/=lib/permit2/src/
+@foundry-devops/contracts/=lib/foundry-devops/src/
