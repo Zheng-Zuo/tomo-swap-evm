@@ -32,6 +32,8 @@ unwrap:; forge script script/Interactions.s.sol:UnwrapEth --rpc-url ${BSC_RPC_UR
 
 deploy-cake-v3-helper-bsc:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${BSC_RPC_URL} --broadcast --verify
 
+deploy-cake-v3-helper-v2-bsc:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${BSC_RPC_URL} --broadcast --verify --etherscan-api-key ${BSC_API_KEY}
+
 deploy-uni-v3-helper-bsc:; forge script script/deploy/DeployUniV3PoolQuoteHelper.s.sol:DeployUniV3PoolQuoteHelper --rpc-url ${BSC_RPC_URL} --broadcast --verify
 
 sig:; forge script script/Interactions.s.sol:TestSignature --rpc-url ${BSC_RPC_URL}
