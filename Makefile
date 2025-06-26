@@ -42,31 +42,47 @@ sweep-erc20:; forge script script/Interactions.s.sol:SweepERC20 --rpc-url ${BSC_
 
 cake-v3-multi-hop-swap-arb:; forge script script/Interactions.s.sol:CakeV3MultiHopSwapArb --rpc-url ${ARB_RPC_URL} --broadcast
 
+#################################### base ###########################################
+
 deploy-cake-v3-helper-base:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${BASE_RPC_URL} --broadcast --verify --etherscan-api-key ${BASE_API_KEY}
+
+deploy-cake-v3-helper-v2-base:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${BASE_RPC_URL} --verify --etherscan-api-key ${BASE_API_KEY} --broadcast
+
+deploy-router-base:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${BASE_RPC_URL} --broadcast --verify --etherscan-api-key ${BASE_API_KEY}
+
+#################################### eth ###########################################
 
 deploy-cake-v3-helper-eth:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${ETH_RPC_URL} --broadcast --verify --etherscan-api-key ${ETH_API_KEY}
 
-deploy-router-base:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${BASE_RPC_URL} --broadcast --verify --etherscan-api-key ${BASE_API_KEY}
+deploy-cake-v3-helper-v2-eth:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${ETH_RPC_URL} --verify --etherscan-api-key ${ETH_API_KEY} --broadcast
 
 deploy-router-eth:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${ETH_RPC_URL} --broadcast --verify --etherscan-api-key ${ETH_API_KEY}
 
 #################################### arb ###########################################
 deploy-cake-v3-helper-arb:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${ARB_RPC_URL} --broadcast --verify --etherscan-api-key ${ARB_API_KEY}
 
+deploy-cake-v3-helper-v2-arb:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${ARB_RPC_URL} --verify --etherscan-api-key ${ARB_API_KEY} --broadcast
+
 deploy-router-arb:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${ARB_RPC_URL} --broadcast --verify --etherscan-api-key ${ARB_API_KEY}
 
 #################################### op ###########################################
 deploy-cake-v3-helper-op:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${OP_RPC_URL} --broadcast --verify --etherscan-api-key ${OP_API_KEY}
+
+deploy-cake-v3-helper-v2-op:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${OP_RPC_URL} --broadcast --verify --etherscan-api-key ${OP_API_KEY}
 
 deploy-router-op:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${OP_RPC_URL} --broadcast --verify --etherscan-api-key ${OP_API_KEY}
 
 #################################### polygon #########################################
 deploy-cake-v3-helper-polygon:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${POL_RPC_URL} --broadcast --verify --etherscan-api-key ${POL_API_KEY}
 
+deploy-cake-v3-helper-v2-polygon:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${POL_RPC_URL} --broadcast --verify --etherscan-api-key ${POL_API_KEY}
+
 deploy-router-polygon:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${POL_RPC_URL} --broadcast --verify --etherscan-api-key ${POL_API_KEY}
 
 #################################### avalanche #########################################
 deploy-cake-v3-helper-avax:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${AVAX_RPC_URL} --broadcast --verify
+
+deploy-cake-v3-helper-v2-avax:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${AVAX_RPC_URL} --broadcast --verify
 
 deploy-router-avax:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${AVAX_RPC_URL} --broadcast --verify
 
@@ -87,6 +103,8 @@ deploy-router-zksync:; forge script script/deploy/DeployTomoSwapRouter.s.sol:Dep
 
 #################################### berachain #########################################
 deploy-cake-v3-helper-berachain:; forge script script/deploy/DeployCakeV3PoolQuoteHelper.s.sol:DeployCakeV3PoolQuoteHelper --rpc-url ${BERACHAIN_RPC_URL} --broadcast --verify --etherscan-api-key ${BERACHAIN_API_KEY}
+
+deploy-cake-v3-helper-v2-berachain:; forge script script/deploy/DeployCakeV3PoolQuoteHelperV2.s.sol:DeployCakeV3PoolQuoteHelperV2 --rpc-url ${BERACHAIN_RPC_URL} --broadcast --verify --etherscan-api-key ${BERACHAIN_API_KEY}
 
 deploy-router-berachain:; forge script script/deploy/DeployTomoSwapRouter.s.sol:DeployTomoSwapRouter --rpc-url ${BERACHAIN_RPC_URL} --broadcast --verify --etherscan-api-key ${BERACHAIN_API_KEY} --resume
 
